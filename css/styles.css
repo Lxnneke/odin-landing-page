@@ -111,6 +111,7 @@ main {
 .informationSection {
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .imageSection {
@@ -129,3 +130,19 @@ main {
 }
 
 /************* QUOTE PART ***************/
+.quoteSection {
+    padding: 50px 0 70px 0;
+    text-align: left;
+}
+
+h4 {
+    max-width: 50%;
+    padding-left: 25%;
+    margin-bottom: 0;
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25%;
+}
