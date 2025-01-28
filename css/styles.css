@@ -47,6 +47,7 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
 }
 
 ul {
@@ -91,7 +92,7 @@ main {
     padding-left: 15%;
 }
 
-img {
+.mainSectionImage {
     padding-left: 40px;
     flex-basis: 40%;
 }
@@ -104,4 +105,25 @@ img {
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
+}
+
+/*************MORE INFORMATION**********/
+.informationSection {
+    display: flex;
+    justify-content: center;
+}
+
+.imageSection {
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.spaceBetween{
+    margin-left: 4%;
+}
+
+.imageSection > img {
+    max-width: 100%;
+    border-radius: 30px;
+    border: 5px solid #3882F6;
 }
